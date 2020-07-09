@@ -1,1 +1,3 @@
 node_modules/
+hosting/build/
+hosting/src/.env.local

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./ihatedriving/build",
+    "public": "./hosting/build",
     "ignore": [
       "firebase.json",
       "**/.*",

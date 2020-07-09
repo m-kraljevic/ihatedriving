@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+div.homes {
+  width:200px;
+}
+
+div.background {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #281414;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+div.home {
+  border-radius: 12px;
+  background-color: #e1e5ee;
+  padding: 4px;
+  margin: 10px;
+}
+
+div.bottom{
+  position: absolute;
+  color: #63738d;
+  bottom: 10px;
+}
+
+div.background {
+  opacity: 0;
+}
+
+h1 {
+  padding:15px;
+  color: #63738d;
+}
+
+div.tutorial {
+  padding: 8px;
+  padding-left: 16px;
+  font-size: 14px;
+  color: #63738d;
+}
+
+button.num-btn {
+  margin:10px;
+}
+
+button {
+  margin: 5px
+}
+
+button.delete-btn {
+  right: 0px;
+  float:right;
+}
+
+li.location {
+  padding: 0px;
+  font-size: 10px;
+}
+
+ul.location-list {
+  list-style-type: none;
+  overflow-y: scroll;
+  max-height: 40%;
+}
+
+div.homes {
+  position: absolute;
+  width:30%;
+  z-index:10;
+}
+
+div.col.map-section {
+  max-width:65%;
+  position: relative;
+  background-color: #fbfaf7;
+}
+
+div.col.info-section {
+  background-color: #fbfaf7;
+  max-width:35%;
+}
+
+div.homes{
+  width: 150px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+.App-header {
+  background-color: #aebbd4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
